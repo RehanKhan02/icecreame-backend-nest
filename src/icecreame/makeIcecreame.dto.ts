@@ -20,6 +20,9 @@ export class makeIcecreameDto {
     @IsNumber()
     @Min(1)
     quantity: number
+
+    @IsString()
+    color!: string
 }
 
 export class IceCreameList {
